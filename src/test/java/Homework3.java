@@ -24,8 +24,7 @@ public class Homework3 {
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-dropdown-container").$(byText("March")).click();
         $(".react-datepicker__year-dropdown-container").$(byText("1980")).click();
-        $($(".react-datepicker__month-container").$(byText("30"))) : not ($(".react-datepicker__month").$(byText("day--outside-month"))).click();
-//        $(".react-datepicker__month-container : not(byText("day--outside-month")").$(byText("30")).click();
+        $(".react-datepicker__month-container").$(byText("13")).click();
         $("#subjectsInput").setValue("English").pressEnter();
         $("#hobbies-checkbox-3").parent().$(byText("Music")).click();
         $("#uploadPicture").uploadFromClasspath("pictures/3.png");
